@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+
+  .Heading{
+    text-align: center;
+  }
+
+  #tools{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+  }
+  #color{
+    height: 40px;
+  }
+  #Erase ,#Erase_All, #download {
+    height: 60px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: bisque;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .draw-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .draw-board{
+    height: 512px;
+    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+  }
+  
+  .child{
+    padding: 0;
+    margin-top: 0;
+    height: 32px;
+    width: 32px;
+    border: 0.1px solid black;
+
+  }
