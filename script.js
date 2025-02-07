@@ -47,7 +47,7 @@ for(let i = 0 ;i < boxes.length;i++){
 download.onclick = () => {
     html2canvas(document.getElementById("board")).then(function(canvas) {
         const link = document.createElement("a");
-        link.download = "drawboard.png";
+        link.download = "drawboard.pdf";
         link.href = canvas.toDataURL();
         link.click();
     });
